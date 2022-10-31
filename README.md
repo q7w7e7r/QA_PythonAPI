@@ -1,11 +1,11 @@
 # QA_PythonAPI
 requests, pytest, Allure, Docker
 
-Git:
+Git\n
   git clone https://github.com/q7w7e7r/QA_PythonAPI.git
 
 Pytest:
-  Run all tests
+  Run all tests:
     python -m pytest 
 
 Allure:
