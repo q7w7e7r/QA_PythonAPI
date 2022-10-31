@@ -5,7 +5,7 @@ Git:
   git clone https://github.com/q7w7e7r/QA_PythonAPI.git
 
 Pytest:
-  #Run all tests:#
+  "Run all tests:"
     python -m pytest 
 
 Allure:
@@ -13,9 +13,9 @@ Allure:
   allure serve test_results
 
 Docker:
-  Create image
+  "Create image"
   docker build -t pytest_runner .
-  Run conteiner
+  "Run conteiner"
   docker run --rm --mount type=bind,src=C:\Users\q7w7e\PycharmProjects\QA_PythonAPI,target=/tests_project/ pytest_runner
 
 Docker-compose:
